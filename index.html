@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <style>
+        h2,h3{
+            color: white;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h2{
+            margin-top: 5rem;
+            font-size: 3rem;
+        }
+
+        h3{
+            font-size: 2rem;
+        }
+
+        button{
+            background-color: black;
+            color: white;
+            margin: 1rem;
+            border: 1px solid black;
+        }
+
+        header{
+            background-color: black;
+            width: 100%;
+            height: 35rem;
+        }
+        @media(min-device-width: 200px) and (max-device-width: 2000px) 
+        {
+            header{
+                max-width: 100%;
+            }
+        }
+
+        #quote{
+            background-color: black;
+            color: white;
+            height: 10rem;
+            width: 100%;
+            padding:4rem;
+            margin-bottom: auto;
+        }
+
+        body{
+            overflow: auto;
+        }
+
+        #information{
+            margin:auto
+        }
+
+        #image{
+            margin-top: 5rem;
+            padding-left: 5rem;
+            align-items: center;
+        
+        }
+
+        #poet{
+            margin-top: auto;
+            margin-bottom: 10rem;
+        }
+
+        #third_container{
+           align-items:center;
+           margin-bottom: 2rem;
+        }
+
+        #button-group{
+            margin-left: 10rem;
+        }
+
+        hr{
+            width:40%;
+            text-align:left;
+            margin-left: 0;
+            color: black;
+        }
+
+        .linebreak,.poems,.poetry{
+            display: flex;
+            flex-direction: row; 
+        }
+
+        .linebreak:before,
+        .linebreak:after{
+            content:" ";
+            flex: 1 1;
+            border-bottom:1px solid rgba(0, 0, 0, 0.582) ;
+            margin:auto;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+
+        .poetry:before,
+        .poetry:after{
+            content:" ";
+            flex: 1 1;
+            border-bottom:1px solid rgba(0, 0, 0, 0.582) ;
+            margin:auto;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+
+        .poems:before,
+        .poems:after{
+            content:" ";
+            flex: 1 1;
+            border-bottom:1px solid rgba(0, 0, 0, 0.582) ;
+            margin:auto;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+
+        
+
+        #starfilled{
+            margin-right: 1rem;
+        }
+
+        .prize{
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            margin-left: 3rem;
+        }
+
+        .goldmedal,.padmabhushan,.poet,.padak{
+            border: 1px solid rgba(0, 0, 0, 0.568);
+            margin: 2rem;
+            width: 30rem;
+            padding: 5px;
+        }
+
+        @media(min-device-width: 200px) and (max-device-width: 2000px) 
+        {
+            .goldmedal,.padmabhushan,.poet,.padak{
+            display: inline;
+        }
+        }
+
+        @media(min-width:800px){
+            body{
+                background-color: white;
+            }
+        }
+
+        #poetrycol,#poemscol{
+            margin-left: auto;
+        }
+
+        #footerrow{
+            display: flex;
+            width: 100%;
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        section{
+            margin-left: 6rem;
+            margin-right: 5rem;
+        }
+
+        span{
+            color: blanchedalmond;
+        }
+
+        h6{
+            margin-bottom:1px;
+            padding: 0%;
+        }
+        
+
+    
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="flex-group">
+                <button>Home</button>
+                <button>About</button>
+                <button>Achievements</button>
+            </div>
+            <br>
+            <h2>Kazi Nazraul Islam</h2>
+            <br>
+            <h3>The National poet of Bangladesh</h3>
+        </header>
+    </div>
+
+    <div class="container" id="secondContainer">
+        <div class="row">
+            <div class="col-6" id="information">
+                <h4>Rebel Poet</h4>
+                <p>Islam, Kazi Nazrul (1899-1976) national poet of Bangladesh, called the 'rebel poet' for his brave resistance to all forms of repression. His poetry, with its vibrant rhythms and iconoclastic themes, forms a striking contrast to rabindranath tagore's poetry. 
+                    Though he had great regard and admiration for the older poets and writers, he did not imitate any poet or writer, even not Rabindranath, though it was a fashion of the day.
+                </p>
+                       <br>
+                       <br>
+                <h4>Awesome Writer</h4>
+                <p>Nazrul was attracted to folk theatre, with its mixture of poetry, song and dance. He left his duties at the mazar and mosque, and joined a leto group. 
+                    This was the beginning of Nazrul's life as a poet and artiste. He acted with the group and also learnt the art of composing poems and songs at short notice. 
+                    Through his association with the leto group, he began to learn about the Hindu puranas. The young adolescent poet composed a number of folk plays for his leto group: Chasar San, Shakunibadh, Raja Yudhisthirer San, Data Karna, Akbar Badshah, Kavi Kalidas, Vidyabhutum, Rajputrer San, Buda Saliker Ghade Ron and Meghnad Badh.
+                </p>
+    
+            </div>
+            <div class="col-6" id="image">
+                <br>
+                <img src="https://kavishala.s3.ap-south-1.amazonaws.com/sootradhar_author/bangladesh_national_poet_kazi_nazrul_islam.jpg" alt="poet_image" height="500" width="400" id="poet">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="third_container">
+        <button type="button" id="button-group" class="btn btn-secondary">Learn More</button>
+        <button type="button"  class="btn btn-success">Videos</button>
+        <button type="button"  class="btn btn-danger">Books</button>
+    </div>
+
+    <div class="container-fluid" id="quote">
+        <p><h3>"Love has no meaning or amount"-Kazi Nazrul Islam</h3></p>
+    </div>
+    <br>
+    <br>
+    
+        <h4 class="linebreak">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" id="starfilled">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>Awards</h4>
+
+      <br>
+      <br>
+      <div class="prize">
+          <div class="goldmedal">
+              <h4>Jagattarini Gold Medal</h4>
+              <p>1945<br>
+                From the University of Calcutta for his work in bengali literature</p>
+          </div>
+          <div class="padmabhushan">
+              <h4>Padma Bhushan</h4>
+              <p>1960<br>
+                One of the highest civillian honors of the Republic of India</p>
+          </div>
+          <div class="poet">
+              <h4>National Poet</h4>
+              <p>-<br>
+                Conferred the title by the Government of Bangladesh</p>
+          </div>
+          <div class="padak">
+              <h4>Ekushey Padak</h4>
+              <p>1976<br>
+                Bangladesh highest civillian honours</p>     
+          </div>
+      </div>
+      <br>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-6" id="poetryCol">
+                  <h4 class="poetry">Poetry</h4>
+                  <br>
+                  <br>
+                  <ul>
+                      <li>Agni Bina(The Fiery Lute),1922</li>
+                      <li>Sanchita(Collected poems),1925</li>
+                      <li>Phanimanasa(The Cactus),1927</li>
+                      <li>Chakrabak(The Flamingo)</li>
+                      <li>Satbhai Champa(The Seven Brothers of Champa),juvenile poems,1933</li>
+                      <li>Nirijhar(Fountain),1939</li>
+                      <li>Natun Chand(The New Moon),1939</li>
+                      <li>Morubhaskar(The Sun in the Desert),1951</li>
+                      <li>Sanchayan(Collected Poems),1955</li>
+                      <li>Nazrul Islam:Islami Kobita(A Collection of Islamic Poems; Dhaka, Bhangladesh:Islamic Foundation, 1982)</li>
+                  </ul>
+              </div>
+              <div class="col-6" id="poemscol">
+                    <h4 class="poems">Poems and Songs</h4>
+                    <br>
+                    <br>
+                    <ul>
+                        <li>Dolan chapa(name of a faintly fragnant monsoon flower),1923</li>
+                        <li>Bisher Bashi(The Poison Flute),1924</li>
+                        <li>Bhangar(The Song of Destruction),1924 proscribe in 1924</li>
+                        <li>Chhayanat(The Raga of Chhayanat),1925</li>
+                        <li>Chittanarma(On Chittaranjan),1925</li>
+                        <li>Samyabadi(The Proclaimer of Equality),1926</li>
+                        <li>Puber Hawa(The Eastern Wind),1926</li>
+                        <li>Sarbahara(The Proletariat),1926</li>
+                        <li>Sindhu Hindol(The Indulation of the Sea),1927</li>
+                        <liJinjir(Chain),1928</li>
+                        <li>Pralaya Shika(Doomsday Flame),1930 proscribed in 1930</li>
+                        <li>Shesh Soagat(The Last Offerings),1958</li>
+                    </ul>
+              </div>
+          </div>
+      </div>
+
+      <br>
+      <br>
+
+
+      <div class="container-fluid" id="footerrow">
+          <section>
+              <p><h6>About the Author</h6><br>Made by <span>Md.Abu Taher </span>for a <br>Freecodecamp tribute challenge.</p>
+            </section>
+            <section>
+                <p><h6>Techs Used</h6><br><span>Sematic UI</span></p>
+            </section>
+            <section>
+                <p><h6>Content Disclaimer</h6><br>
+                The content of this website is mostly copied from <a href="https://en.wikipedia.org/wiki/Kazi_Nazrul_Islam">wikipedia,</a><br><a href="https://en.wikipedia.org/wiki/Kazi_Nazrul_Islam">BiographyBD,</a><a href="https://en.wikipedia.org/wiki/Kazi_Nazrul_Islam#Later_life">Later Life.</a>Original credits goes to the <br> respective authors</p>
+
+            </section>
+
+      </div>
+
+</body>
+</html>
